@@ -6,6 +6,10 @@ import Assignement4 from "./components/assignment4/AssignmentNo4";
 import Assignement5 from "./components/assignment5/AssignmentNo5";
 import Assignement6 from "./components/assignment6/AssignmentNo6";
 import Assignement7 from "./components/assignment7/AssignmentNo7";
+import Assignement8 from "./components/assignment8/AssignmentNo8";
+import Assignement9 from "./components/assignment9/AssignmentNo9";
+import Assignement10 from "./components/assignment10/AssignmentNo10";
+import Assignement11 from "./components/assignment11/AssignmentNo11";
 
 function App() {
   return (
@@ -13,14 +17,18 @@ function App() {
       <header className="App-header">
         <p>Assignments</p>
       </header>
-      <body>
-        <Assignement1 />
+      <section>
+        {/* <Assignement1 />
         <Assignement2 />
         <Assignement4 />
         <Assignement5 />
-        <Assignement6 />
-        <Assignement7 />
-      </body>
+        <Assignement6 /> */}
+        {/* <Assignement7 /> */}
+        {/* <Assignement8 /> */}
+        {/* <Assignement9 /> */}
+        {/* <Assignement10 /> */}
+        <Assignement11 />
+      </section>
     </div>
   );
 }
