@@ -6,7 +6,7 @@ class Assignement4 extends React.Component {
     return (
       <div>
         <h3>Here is Assignement 4</h3>
-        <Car />
+        <Car color={"M Portimao Blue metallic"} />
       </div>
     );
   }

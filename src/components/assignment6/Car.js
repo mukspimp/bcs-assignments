@@ -1,10 +1,24 @@
 import React from "react";
 
 class Car extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Jaguar F-Type",
+      fuelType: "Petrol",
+      engine: "5000 cc",
+      power: "493 bhp & 700 Nm",
+      driveTrain: "RWD",
+      acceleration: "2.5 seconds",
+      topspeed: "290 kmph",
+      color: "Sunset Gold Metallic",
+    };
+  }
+
   render() {
     return (
       <>
-        <h3>BMW Z4 Car Specifications</h3>
+        <h3>My BMW Z4 Car Specifications</h3>
         <table>
           <tbody>
             <tr>
@@ -47,7 +61,7 @@ class Car extends React.Component {
               <th>
                 <span>Colour</span>
               </th>
-              <td>{this.props.color}</td>
+              <td>Alpine White</td>
             </tr>
           </tbody>
         </table>

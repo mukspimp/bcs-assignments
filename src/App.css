@@ -37,6 +37,9 @@
   }
 }
 
+body {
+  margin-bottom: 50px;
+}
 table {
   border: 2px solid rgb(93, 167, 228);
   width: 800px;
@@ -57,4 +60,8 @@ th {
 td {
   text-align: center;
   border: 1px solid #c0c0c0;
+}
+
+.box {
+  border: 1px solid #d62525;
 }

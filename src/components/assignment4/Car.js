@@ -1,10 +1,6 @@
 import React from "react";
 
 class Car extends React.Component {
-  constructor() {
-    super();
-    this.color = "Alpine White";
-  }
   render() {
     return (
       <>
@@ -51,7 +47,7 @@ class Car extends React.Component {
               <th>
                 <span>Colour</span>
               </th>
-              <td>{this.color}</td>
+              <td>{this.props.color}</td>
             </tr>
           </tbody>
         </table>
