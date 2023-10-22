@@ -10,6 +10,9 @@ import Assignement8 from "./components/assignment8/AssignmentNo8";
 import Assignement9 from "./components/assignment9/AssignmentNo9";
 import Assignement10 from "./components/assignment10/AssignmentNo10";
 import Assignement11 from "./components/assignment11/AssignmentNo11";
+import Assignement16 from "./components/assignment16/AssignmentNo16";
+import Assignement17 from "./components/assignment17/AssignmentNo17";
+import Assignement18 from "./components/assignment18/AssignmentNo18";
 
 function App() {
   return (
@@ -22,12 +25,15 @@ function App() {
         <Assignement2 />
         <Assignement4 />
         <Assignement5 />
-        <Assignement6 /> */}
-        {/* <Assignement7 /> */}
-        {/* <Assignement8 /> */}
-        {/* <Assignement9 /> */}
-        {/* <Assignement10 /> */}
-        <Assignement11 />
+        <Assignement6 />
+        <Assignement7 />
+        <Assignement8 />
+        <Assignement9 />
+        <Assignement10 />
+        <Assignement11 /> */}
+        {/* <Assignement16 /> */}
+        {/* <Assignement17 /> */}
+        <Assignement18 />
       </section>
     </div>
   );
